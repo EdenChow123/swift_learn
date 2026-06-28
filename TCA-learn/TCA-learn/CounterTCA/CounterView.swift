@@ -6,10 +6,7 @@
 //
 
 import SwiftUI
-
 import ComposableArchitecture
-
-import SwiftUI
 
 struct CounterView: View {
     let store: StoreOf<CounterFeature>

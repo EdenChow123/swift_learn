@@ -13,6 +13,8 @@
 		EF44FC3D2FF108AE0053F4F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF44FC372FF108AE0053F4F1 /* Assets.xcassets */; };
 		EF44FC402FF108CA0053F4F1 /* CounterFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF44FC3F2FF108CA0053F4F1 /* CounterFeature.swift */; };
 		EF44FC422FF109F90053F4F1 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF44FC412FF109F90053F4F1 /* CounterView.swift */; };
+		EF44FC452FF11B1F0053F4F1 /* FetchImageFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF44FC442FF11B1F0053F4F1 /* FetchImageFeature.swift */; };
+		EF44FC902FF1271D0053F4F1 /* FetchImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF44FC8F2FF1271D0053F4F1 /* FetchImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +43,8 @@
 		EF44FC392FF108AE0053F4F1 /* TCA_learnApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCA_learnApp.swift; sourceTree = "<group>"; };
 		EF44FC3F2FF108CA0053F4F1 /* CounterFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterFeature.swift; sourceTree = "<group>"; };
 		EF44FC412FF109F90053F4F1 /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
+		EF44FC442FF11B1F0053F4F1 /* FetchImageFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchImageFeature.swift; sourceTree = "<group>"; };
+		EF44FC8F2FF1271D0053F4F1 /* FetchImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -113,6 +117,7 @@
 		EF44FC3A2FF108AE0053F4F1 /* TCA-learn */ = {
 			isa = PBXGroup;
 			children = (
+				EF44FC432FF118DE0053F4F1 /* FetchNetworkImage-TCA */,
 				EF44FC3E2FF108B60053F4F1 /* CounterTCA */,
 				EF44FC372FF108AE0053F4F1 /* Assets.xcassets */,
 				EF44FC382FF108AE0053F4F1 /* ContentView.swift */,
@@ -128,6 +133,15 @@
 				EF44FC412FF109F90053F4F1 /* CounterView.swift */,
 			);
 			path = CounterTCA;
+			sourceTree = "<group>";
+		};
+		EF44FC432FF118DE0053F4F1 /* FetchNetworkImage-TCA */ = {
+			isa = PBXGroup;
+			children = (
+				EF44FC442FF11B1F0053F4F1 /* FetchImageFeature.swift */,
+				EF44FC8F2FF1271D0053F4F1 /* FetchImageView.swift */,
+			);
+			path = "FetchNetworkImage-TCA";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,6 +292,8 @@
 			files = (
 				EF44FC402FF108CA0053F4F1 /* CounterFeature.swift in Sources */,
 				EF44FC3B2FF108AE0053F4F1 /* ContentView.swift in Sources */,
+				EF44FC452FF11B1F0053F4F1 /* FetchImageFeature.swift in Sources */,
+				EF44FC902FF1271D0053F4F1 /* FetchImageView.swift in Sources */,
 				EF44FC3C2FF108AE0053F4F1 /* TCA_learnApp.swift in Sources */,
 				EF44FC422FF109F90053F4F1 /* CounterView.swift in Sources */,
 			);

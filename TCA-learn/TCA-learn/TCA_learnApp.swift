@@ -11,11 +11,31 @@ import ComposableArchitecture
 struct TCA_learnApp: App {
     var body: some Scene {
         WindowGroup {
-            CounterView(
-                store: Store(initialState: CounterFeature.State()) {
-                    CounterFeature()
-                }
-            )
+//            builtCounterView()
+            builtFetchImageView()
         }
     }
+    
+    
+    
+    
+    
+    
+    
+    func builtCounterView() -> some View  {
+        CounterView(
+            store: Store(initialState: CounterFeature.State()) {
+                CounterFeature()
+            }
+        )
+    }
+    
+    func builtFetchImageView() -> some View  {
+        FetchImageView(
+            store: Store(initialState: FetchImageFeature.State()) {
+                FetchImageFeature()
+            }
+        )
+    }
+    
 }
